@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+</head>
+<body>
+
+  <h1>Contact</h1>
+
+  <p>Conor Rolston</p>
+  <p>711 Comstcock, Syracuse, Ny 13244</p>
+
+  <p><a href="conor.rolston@gmail.com">conor.rolston@gmail.com/a></p>
+
+  <p>
+    <a href="https://www.linkedin.com/in/conorrolston" target="_blank">
+      My LinkedIn Profile
+      <img src="..//in-logo/LI-In-Bug.png" alt="LinkedIn logo" width="100">
+    </a>
+  </p>
+
+  <a href="https://www.google.com/maps/place/Theta+Chi,+711+Comstock+Ave,+Syracuse,+NY+13210/@43.038727,-76.1321302,17z/data=!3m1!4b1!4m6!3m5!1s0x89d9f37522103745:0x81782b17d77de31a!8m2!3d43.0387231!4d-76.1295553!16s%2Fg%2F11_qx2x3q?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D"></a>
+
+</body>
+</html>
