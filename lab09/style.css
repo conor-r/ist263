@@ -51,8 +51,19 @@ footer p {
 
 .center {text-align: center;}
 
-.skillsflex { display: flex; }
+.skillsflex {
+  display: flex;
+  align-items: center;         
+  background-color: #ececec;   
+  color: #222;                 
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 40px;
+}
 
+.skillsimage img {
+  max-width: 200px;            
+}
 .skillstable table { margin: 0 auto; } 
 
 .skillsimage { text-align: center; } 
