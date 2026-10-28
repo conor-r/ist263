@@ -14,8 +14,14 @@
             .row1 div {
                 padding: 40px;}
 
+            .bannersmall {display: none;}
+                @media only screen and (min-width: 801px){
+                    body {background-color: lightgreen;}
+                }
                 @media only screen and (max-width: 800px) {
-                    body {background-color: red;}
+                    body {background-color: white;}
+                    .bannersmall {display: block;}  
+                    .banner {display: none;}
                 }
             
         </style>
