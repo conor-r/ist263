@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Key differences between similar AWS services and when to choose each one.">
+  <title>Service Comparisons | AWS Explained</title>
+</head>
+<body>
+  <header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="services.html">Popular AWS Services</a> |
+        <a href="comparisons.html" aria-current="page">Service Comparisons</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Key Differences Between Similar Services</h1>
+    <figure>
+      <img src="../images/blurred_cables.jpg" alt="Blurred network cables connected to electronic equipment">
+      <figcaption>Photo from <a href="https://www.pexels.com/photo/modern-electronic-construction-with-connected-wires-5408008/">Pexels</a></figcaption>
+    </figure>
+    <p>One of the hardest parts of learning how to use AWS is that many services sound alike and seem to do the same job. Choosing the right service is important because choosing the wrong one can lead to extra money cost or problems down the line. Below are common comparisons so you know which service to pick.</p>
+
+    <section>
+      <h2>EC2 vs. Lambda</h2>
+      <p>The main difference between EC2 and Lambda is that with EC2, you rent a virtual server that you set up and manage and pay for as long as it is running, while with Lambda, you upload your code and AWS runs it when something triggers it.</p>
+      <p><strong>Common scenario:</strong> A company wants to create a thumbnail every time a customer uploads a photo. The work is short and only happens when a photo arrives. In this scenario, Lambda is the better choice because it is cheaper and simpler. If the company instead runs a website that must be online 24/7, EC2 is the better fit.</p>
+    </section>
+
+    <section>
+      <h2>RDS vs. DynamoDB</h2>
+      <p>RDS is a managed relational database. It stores data in tables with rows and columns, supports SQL, and is good at complex queries that combine data from several tables. DynamoDB is a NoSQL database built for fast lookups at almost any scale and doesn't require a fixed table structure.</p>
+      <p><strong>Common scenario:</strong> An online store that needs reports combining customers, orders, and products would fit RDS, whereas a mobile game that needs to instantly save and load millions of player scores fits DynamoDB better.</p>
+    </section>
+
+    <section>
+      <h2>CloudWatch vs. CloudTrail</h2>
+      <p>CloudWatch tracks metrics and logs and sends alarms so you know how your resources are running. CloudTrail records who did what in your account by logging actions and API calls. CloudWatch is about performance while CloudTrail is about internal security.</p>
+    </section>
+
+    <section>
+      <h2>S3 vs. EBS vs. EFS</h2>
+      <p>All three of these services store data, but in different ways. S3 is object storage that you reach over the internet, with room for almost unlimited files. Elastic Block Store is like a hard drive that attaches to an EC2 server. Elastic File System is a shared file system that many servers can use at the same time.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p><small>&copy; 2026 Conor Rolston | This site is not affiliated with Amazon Web Services.</small></p>
+  </footer>
+</body>
+</html>
